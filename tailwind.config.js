@@ -1,5 +1,7 @@
 module.exports = {
-  purge: [],
+  purge: {
+    content: ["./src/**/*.jsx"],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -11,7 +13,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        headline: "Poppins, sans-serif" //class of font-headline
+        headline: "Poppins, sans-serif",
       },
     },
   },
@@ -21,4 +23,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
